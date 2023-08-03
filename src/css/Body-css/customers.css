@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid-item img {
+  width: 150px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+  }
+}

@@ -1,0 +1,35 @@
+.steps-container {
+  margin-top: 40px;
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
+  padding-top: 80px; 
+  padding-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.steps {
+  max-width: 60%;
+}
+
+.step-container {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.step-left {
+  flex: 1;
+}
+
+.step-right {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.step-right img {
+  max-width: 100%;
+}

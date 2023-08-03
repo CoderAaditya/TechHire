@@ -1,0 +1,73 @@
+/* footer.css */
+.section-quotes {
+    background-color: #fff;
+    padding: 24px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .headline-center {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .pre-headline {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .quotes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px; 
+  }
+  
+  .quote-card {
+    width: 150%;
+    max-width: 400px; 
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .img-quote {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
+  
+  .quote-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .quotes-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .quote-card {
+      max-width: 100%;
+    }
+  }
+  

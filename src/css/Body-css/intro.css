@@ -1,0 +1,36 @@
+.app-intro-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.app-intro-content {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.app-intro-content.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.app-intro-content .btn-primary:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .app-intro-content h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .app-intro-content h1 {
+    font-size: 24px;
+  }
+
+  .app-intro-content p {
+    font-size: 14px;
+  }
+}
